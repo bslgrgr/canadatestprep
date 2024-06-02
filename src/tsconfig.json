@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      // ... other options
+      "lib": ["es6", "dom"]
+    },
+    "include": [
+      // ... other includes
+      "src/service-worker.ts"
+    ]
+}
