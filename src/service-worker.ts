@@ -1,3 +1,5 @@
+/// <reference lib="webworker" />
+
 const CACHE_NAME = 'canadatestprep-cache-v1';
 const urlsToCache = [
   '/',
@@ -8,8 +10,9 @@ const urlsToCache = [
   '/icons/icon-512x512.png'
 ];
 
-self.addEventListener('install', event => {
-  event.waitUntil(
+self.addEventListener('install', (event: Event) => {
+  const swEvent = event as ExtendableEvent; // Cast to ExtendableEvent
+  swEvent.waitUntil(
     caches.open(CACHE_NAME)
       .then(cache => {
         return cache.addAll(urlsToCache);
@@ -17,18 +20,20 @@ self.addEventListener('install', event => {
   );
 });
 
-self.addEventListener('fetch', event => {
-  event.respondWith(
-    caches.match(event.request)
+self.addEventListener('fetch', (event: Event) => {
+  const swEvent = event as FetchEvent; // Cast to FetchEvent
+  swEvent.respondWith(
+    caches.match(swEvent.request)
       .then(response => {
-        return response || fetch(event.request);
+        return response || fetch(swEvent.request);
       })
   );
 });
 
-self.addEventListener('activate', event => {
+self.addEventListener('activate', (event: Event) => {
+  const swEvent = event as ExtendableEvent; // Cast to ExtendableEvent
   const cacheWhitelist = [CACHE_NAME];
-  event.waitUntil(
+  swEvent.waitUntil(
     caches.keys().then(cacheNames => {
       return Promise.all(
         cacheNames.map(cacheName => {

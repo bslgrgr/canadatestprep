@@ -1,6 +1,6 @@
 {
-    "name": "My PWA",
-    "short_name": "PWA",
+    "name": "Canada test prep PWA",
+    "short_name": "CanadaTestPrep",
     "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#ffffff",
