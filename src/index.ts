@@ -9,3 +9,6 @@ if ('serviceWorker' in navigator) {
         });
     });
 }
+
+// Test log 
+console.log('Hello, world!');
