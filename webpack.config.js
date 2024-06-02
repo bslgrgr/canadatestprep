@@ -7,7 +7,10 @@ module.exports = (env, argv) => {
   return {
     mode: argv.mode || 'development',
 
-    entry: './src/index.ts',
+    entry: {
+      main: './src/index.ts',
+      sw: './src/service-worker.ts'
+    },
     module: {
       rules: [
         {
@@ -21,18 +24,20 @@ module.exports = (env, argv) => {
       extensions: ['.ts', '.js']
     },
     output: {
-      filename: 'bundle.js',
+      filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist')
     },
     plugins: [
       new CleanWebpackPlugin(),
       new HtmlWebpackPlugin({
-        template: './src/index.html'
+        template: './src/index.html',
+        inject: 'body'
       }),
       new CopyWebpackPlugin({
         patterns: [
           { from: 'src/manifest.json', to: 'manifest.json' },
-          { from: 'src/icons', to: 'icons' }
+          { from: 'src/icons', to: 'icons' },
+          { from: 'src/styles.css', to: 'styles.css' }
         ]
       })
     ],

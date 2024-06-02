@@ -5,7 +5,7 @@ const urlsToCache = [
   '/',
   '/index.html',
   '/styles.css',
-  '/bundle.js',
+  '/main.bundle.js',
   '/icons/icon-192x192.png',
   '/icons/icon-512x512.png'
 ];
@@ -14,8 +14,24 @@ self.addEventListener('install', (event: Event) => {
   const swEvent = event as ExtendableEvent; // Cast to ExtendableEvent
   swEvent.waitUntil(
     caches.open(CACHE_NAME)
-      .then(cache => {
-        return cache.addAll(urlsToCache);
+    .then(cache => {
+        return Promise.all(
+          urlsToCache.map(url => {
+            return fetch(url)
+              .then(response => {
+                if (!response.ok) {
+                  throw new Error(`Request for ${url} failed with status ${response.status}`);
+                }
+                return cache.put(url, response);
+              })
+              .catch(error => {
+                console.error(`Failed to cache ${url}:`, error);
+              });
+          })
+        );
+      })
+      .catch(error => {
+        console.error('Failed to open cache:', error);
       })
   );
 });
