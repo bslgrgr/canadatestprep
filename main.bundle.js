@@ -1,0 +1,1 @@
+(()=>{"use strict";"serviceWorker"in navigator&&window.addEventListener("load",(()=>{navigator.serviceWorker.register("/sw.bundle.js").then((e=>{console.log("ServiceWorker registration successful with scope: ",e.scope)})).catch((e=>{console.log("ServiceWorker registration failed: ",e)}))}))})();
