@@ -37,7 +37,8 @@ module.exports = (env, argv) => {
         patterns: [
           { from: 'src/manifest.json', to: 'manifest.json' },
           { from: 'src/icons', to: 'icons' },
-          { from: 'src/styles.css', to: 'styles.css' }
+          { from: 'src/styles.css', to: 'styles.css' },
+          { from: 'src/favicon.png', to: 'favicon.png' }
         ]
       })
     ],
