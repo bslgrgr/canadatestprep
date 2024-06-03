@@ -9,5 +9,7 @@ const withPWA = require('next-pwa')({
 
 module.exports = withPWA({
     output: 'export',
+    basePath: '/canadatestprep',
+    assetPrefix: '/canadatestprep/',
     // next.js config
 })
