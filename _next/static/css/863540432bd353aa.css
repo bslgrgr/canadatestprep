@@ -1,0 +1,1 @@
+body{font-family:Arial,sans-serif}.quiz{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh}.question-section{margin-bottom:20px}.question-count{margin-bottom:10px}.question-text{font-size:20px;font-weight:700}.answer-section button{margin:5px;padding:10px 20px;font-size:16px;cursor:pointer}.score-section{font-size:24px;font-weight:700}
