@@ -13,7 +13,7 @@ const Home = () => {
         <link rel="icon" href="/canadatestprep/favicon.png" />
       </Head>
       <h1>Welcome to Canada Test Prep PWA</h1>
-      <Link href="/canadatestprep/quiz">
+      <Link href="/quiz">
         <a>Start Quiz</a>
       </Link>
     </div>
