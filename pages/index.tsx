@@ -15,17 +15,32 @@ type Question = {
   online_page: string;
 };
 
+const shuffleArray = (array: any[]) => {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+};
+
 const Quiz = () => {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [score, setScore] = useState(0);
   const [showScore, setShowScore] = useState(false);
+  const [showHint, setShowHint] = useState(false);
 
   useEffect(() => {
     fetch('/canadatestprep/questions.json')
       .then((response) => response.json())
-      .then((data) => setQuestions(data));
+      .then((data) => {
+        const shuffledQuestions = data.map((question: Question) => ({
+          ...question,
+          possible_answers: shuffleArray(question.possible_answers)
+        }));
+        setQuestions(shuffledQuestions);
+      });
   }, []);
 
   const handleAnswerSelect = (index: number) => {
@@ -43,9 +58,14 @@ const Quiz = () => {
     if (nextQuestion < questions.length) {
       setCurrentQuestion(nextQuestion);
       setSelectedAnswer(null);
+      setShowHint(false);
     } else {
       setShowScore(true);
     }
+  };
+
+  const formatQuote = (quote: string) => {
+    return quote.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
   };
 
   if (questions.length === 0) {
@@ -88,12 +108,18 @@ const Quiz = () => {
             <button onClick={handleSubmit} className="submit-button" disabled={selectedAnswer === null}>
               Submit
             </button>
-            <div className="quote-section">
-              <blockquote>{questions[currentQuestion].quote}</blockquote>
-              <p>
-                Source: <a href={questions[currentQuestion].online_page} target="_blank" rel="noopener noreferrer">{questions[currentQuestion].paragraph}</a>
-              </p>
-            </div>
+            <button onClick={() => setShowHint(!showHint)} className="hint-button">
+              {showHint ? 'Hide Hint' : 'Show a Hint'}
+            </button>
+            {showHint && (
+              <div className="hint-section">
+                <blockquote dangerouslySetInnerHTML={{ __html: formatQuote(questions[currentQuestion].quote) }}></blockquote>
+                <p>
+                  Source: <a href={questions[currentQuestion].online_page} target="_blank" rel="noopener noreferrer">{questions[currentQuestion].paragraph}</a>
+                </p>
+                <p>Page: {questions[currentQuestion].page}</p>
+              </div>
+            )}
           </>
         )}
       </main>
