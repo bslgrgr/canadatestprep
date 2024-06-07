@@ -59,8 +59,25 @@ body {
     transition: background-color 0.3s;
 }
 
-.answer-button:hover {
+.answer-button.selected {
     background-color: #0056b3;
+}
+
+.submit-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.submit-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
 }
 
 .score-section {
