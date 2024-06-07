@@ -14,7 +14,7 @@ const Home = () => {
       </Head>
       <h1>Welcome to Canada Test Prep PWA</h1>
       <Link href="/quiz">
-        <a>Start Quiz</a>
+        Start Quiz
       </Link>
     </div>
   );
