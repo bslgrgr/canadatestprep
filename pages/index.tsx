@@ -44,6 +44,10 @@ const Quiz = () => {
           setQuestions(storedQuestions);
           setCorrectAnswersCount(storedCorrectAnswersCount || 0);
           setIncorrectAnswersCount(storedIncorrectAnswersCount || 0);
+          if (storedQuestions.length > 0) {
+            const nextQuestion = storedQuestions[Math.floor(Math.random() * storedQuestions.length)];
+            setCurrentQuestion(nextQuestion);
+          }
         } else {
           fetch('/canadatestprep/questions.json')
             .then((response) => response.json())
@@ -71,13 +75,6 @@ const Quiz = () => {
       saveQuizState();
     }
   }, [questions, correctAnswersCount, incorrectAnswersCount]);
-
-  useEffect(() => {
-    if (questions.length > 0) {
-      const nextQuestion = questions[Math.floor(Math.random() * questions.length)];
-      setCurrentQuestion(nextQuestion);
-    }
-  }, [questions]);
 
   const handleAnswerSelect = (index: number) => {
     setSelectedAnswer(index);
@@ -136,10 +133,6 @@ const Quiz = () => {
     return quote.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
   };
 
-  if (!currentQuestion) {
-    return <div>Loading...</div>;
-  }
-
   const totalQuestions = correctAnswersCount + incorrectAnswersCount + questions.length;
   const correctCount = correctAnswersCount;
   const incorrectCount = incorrectAnswersCount;
@@ -163,48 +156,54 @@ const Quiz = () => {
         </div>
       </header>
       <main className="quiz-main">
-        <div className="question-section">
-          <div className="question-text">{currentQuestion.question}</div>
-        </div>
-        <div className="answer-section">
-          {currentQuestion.possible_answers.map((answer, index) => (
+        {currentQuestion ? (
+          <>
+            <div className="question-section">
+              <div className="question-text">{currentQuestion.question}</div>
+            </div>
+            <div className="answer-section">
+              {currentQuestion.possible_answers.map((answer, index) => (
+                <button
+                  key={index}
+                  onClick={() => handleAnswerSelect(index)}
+                  className={`answer-button ${selectedAnswer === index ? 'selected' : ''}`}
+                  disabled={isSubmitted}
+                >
+                  {answer.answer_text}
+                </button>
+              ))}
+            </div>
+            {isSubmitted && (
+              <div className={`result-message ${isCorrect ? 'correct' : 'incorrect'}`}>
+                {isCorrect ? 'Correct!' : 'Incorrect!'}
+              </div>
+            )}
             <button
-              key={index}
-              onClick={() => handleAnswerSelect(index)}
-              className={`answer-button ${selectedAnswer === index ? 'selected' : ''}`}
-              disabled={isSubmitted}
+              onClick={isSubmitted ? handleNextQuestion : handleSubmit}
+              className="submit-button"
+              disabled={selectedAnswer === null || (isSubmitted && questions.length === 0)}
             >
-              {answer.answer_text}
+              {isSubmitted ? 'Next Question' : 'Submit'}
             </button>
-          ))}
-        </div>
-        {isSubmitted && (
-          <div className={`result-message ${isCorrect ? 'correct' : 'incorrect'}`}>
-            {isCorrect ? 'Correct!' : 'Incorrect!'}
-          </div>
-        )}
-        <button
-          onClick={isSubmitted ? handleNextQuestion : handleSubmit}
-          className="submit-button"
-          disabled={selectedAnswer === null || (isSubmitted && questions.length === 0)}
-        >
-          {isSubmitted ? 'Next Question' : 'Submit'}
-        </button>
-        <button onClick={() => setShowAnswer(!showAnswer)} className="answer-button">
-          {showAnswer ? 'Hide Answer' : 'Show Answer'}
-        </button>
-        {showAnswer && (
-          <div className="answer-section">
-            <blockquote dangerouslySetInnerHTML={{ __html: formatQuote(currentQuestion.quote) }}></blockquote>
-            <p>
-              Source: <a href={currentQuestion.online_page} target="_blank" rel="noopener noreferrer">{currentQuestion.paragraph}</a>
-            </p>
-            <p>Discover Canada, Page {currentQuestion.page}, {currentQuestion.paragraph}</p>
-          </div>
+            <button onClick={() => setShowAnswer(!showAnswer)} className="answer-button">
+              {showAnswer ? 'Hide Answer' : 'Show Answer'}
+            </button>
+            {showAnswer && (
+              <div className="answer-section">
+                <blockquote dangerouslySetInnerHTML={{ __html: formatQuote(currentQuestion.quote) }}></blockquote>
+                <p>
+                  Source: <a href={currentQuestion.online_page} target="_blank" rel="noopener noreferrer">{currentQuestion.paragraph}</a>
+                </p>
+                <p>Discover Canada, Page {currentQuestion.page}, {currentQuestion.paragraph}</p>
+              </div>
+            )}
+          </>
+        ) : (
+          <p>No questions available.</p>
         )}
       </main>
       <footer className="quiz-footer">
-        Canada Test Prep ©2024
+        Canada Test Prep ©2023
       </footer>
     </div>
   );
