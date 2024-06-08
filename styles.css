@@ -63,6 +63,11 @@ body {
     background-color: #0056b3;
 }
 
+.answer-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
 .submit-button {
     margin-top: 20px;
     padding: 10px 20px;
@@ -80,19 +85,21 @@ body {
     cursor: not-allowed;
 }
 
-.hint-button {
+.result-message {
     margin-top: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #17a2b8;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    transition: background-color 0.3s;
+    font-size: 18px;
+    font-weight: bold;
 }
 
-.hint-section {
+.result-message.correct {
+    color: #28a745;
+}
+
+.result-message.incorrect {
+    color: #dc3545;
+}
+
+.answer-section {
     margin-top: 20px;
     text-align: center;
 }
