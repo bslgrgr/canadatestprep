@@ -88,6 +88,7 @@ const Quiz = () => {
 
     if (correct) {
       setCorrectAnswersCount((prev) => prev + 1);
+      setQuestions((prev) => prev.filter((q) => q !== currentQuestion));
     } else {
       setIncorrectAnswersCount((prev) => prev + 1);
     }
@@ -96,7 +97,6 @@ const Quiz = () => {
   };
 
   const handleNextQuestion = () => {
-    setQuestions((prev) => prev.filter((q) => q !== currentQuestion));
     setSelectedAnswer(null);
     setShowAnswer(false);
     setIsSubmitted(false);
@@ -181,7 +181,7 @@ const Quiz = () => {
             <button
               onClick={isSubmitted ? handleNextQuestion : handleSubmit}
               className="submit-button"
-              disabled={selectedAnswer === null || (isSubmitted && questions.length === 0)}
+              disabled={selectedAnswer === null}
             >
               {isSubmitted ? 'Next Question' : 'Submit'}
             </button>
@@ -203,7 +203,7 @@ const Quiz = () => {
         )}
       </main>
       <footer className="quiz-footer">
-        Canada Test Prep ©2023
+        Canada Test Prep ©2024
       </footer>
     </div>
   );
