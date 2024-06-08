@@ -29,7 +29,7 @@ const Quiz = () => {
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [score, setScore] = useState(0);
   const [showScore, setShowScore] = useState(false);
-  const [showHint, setShowHint] = useState(false);
+  const [showAnswer, setShowAnswer] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
 
@@ -67,7 +67,7 @@ const Quiz = () => {
     if (nextQuestion < questions.length) {
       setCurrentQuestion(nextQuestion);
       setSelectedAnswer(null);
-      setShowHint(false);
+      setShowAnswer(false);
       setIsSubmitted(false);
       setIsCorrect(null);
     } else {
@@ -87,7 +87,7 @@ const Quiz = () => {
     <div className="quiz-container">
       <Head>
         <title>Canada Test Prep Quiz</title>
-        <link rel="stylesheet" href="/styles.css" />
+        <link rel="stylesheet" href="/canadatestprep/styles.css" />
       </Head>
       <header className="quiz-header">
         <h1>Canada Test Prep Quiz</h1>
@@ -125,16 +125,16 @@ const Quiz = () => {
             <button onClick={isSubmitted ? handleNextQuestion : handleSubmit} className="submit-button" disabled={selectedAnswer === null}>
               {isSubmitted ? 'Next Question' : 'Submit'}
             </button>
-            <button onClick={() => setShowHint(!showHint)} className="hint-button">
-              {showHint ? 'Hide Hint' : 'Show a Hint'}
+            <button onClick={() => setShowAnswer(!showAnswer)} className="answer-button">
+              {showAnswer ? 'Hide Answer' : 'Show Answer'}
             </button>
-            {showHint && (
-              <div className="hint-section">
+            {showAnswer && (
+              <div className="answer-section">
                 <blockquote dangerouslySetInnerHTML={{ __html: formatQuote(questions[currentQuestion].quote) }}></blockquote>
                 <p>
                   Source: <a href={questions[currentQuestion].online_page} target="_blank" rel="noopener noreferrer">{questions[currentQuestion].paragraph}</a>
                 </p>
-                <p>Page: {questions[currentQuestion].page}</p>
+                <p>Discover Canada, Page {questions[currentQuestion].page}, {questions[currentQuestion].paragraph}</p>
               </div>
             )}
           </>
