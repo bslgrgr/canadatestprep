@@ -30,6 +30,8 @@ const Quiz = () => {
   const [score, setScore] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [showHint, setShowHint] = useState(false);
+  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
 
   useEffect(() => {
     fetch('/canadatestprep/questions.json')
@@ -50,15 +52,24 @@ const Quiz = () => {
   const handleSubmit = () => {
     if (selectedAnswer === null) return;
 
-    if (questions[currentQuestion].possible_answers[selectedAnswer].is_correct) {
+    const correct = questions[currentQuestion].possible_answers[selectedAnswer].is_correct;
+    setIsCorrect(correct);
+
+    if (correct) {
       setScore(score + 1);
     }
 
+    setIsSubmitted(true);
+  };
+
+  const handleNextQuestion = () => {
     const nextQuestion = currentQuestion + 1;
     if (nextQuestion < questions.length) {
       setCurrentQuestion(nextQuestion);
       setSelectedAnswer(null);
       setShowHint(false);
+      setIsSubmitted(false);
+      setIsCorrect(null);
     } else {
       setShowScore(true);
     }
@@ -76,7 +87,7 @@ const Quiz = () => {
     <div className="quiz-container">
       <Head>
         <title>Canada Test Prep Quiz</title>
-        <link rel="stylesheet" href="/canadatestprep/styles.css" />
+        <link rel="stylesheet" href="/styles.css" />
       </Head>
       <header className="quiz-header">
         <h1>Canada Test Prep Quiz</h1>
@@ -100,13 +111,19 @@ const Quiz = () => {
                   key={index}
                   onClick={() => handleAnswerSelect(index)}
                   className={`answer-button ${selectedAnswer === index ? 'selected' : ''}`}
+                  disabled={isSubmitted}
                 >
                   {answer.answer_text}
                 </button>
               ))}
             </div>
-            <button onClick={handleSubmit} className="submit-button" disabled={selectedAnswer === null}>
-              Submit
+            {isSubmitted && (
+              <div className={`result-message ${isCorrect ? 'correct' : 'incorrect'}`}>
+                {isCorrect ? 'Correct!' : 'Incorrect!'}
+              </div>
+            )}
+            <button onClick={isSubmitted ? handleNextQuestion : handleSubmit} className="submit-button" disabled={selectedAnswer === null}>
+              {isSubmitted ? 'Next Question' : 'Submit'}
             </button>
             <button onClick={() => setShowHint(!showHint)} className="hint-button">
               {showHint ? 'Hide Hint' : 'Show a Hint'}
