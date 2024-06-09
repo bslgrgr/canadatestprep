@@ -16,6 +16,10 @@ type Question = {
   online_page: string;
 };
 
+type QuestionsResponse = {
+  questions: Question[];
+};
+
 const shuffleArray = (array: any[]) => {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -45,23 +49,36 @@ const Quiz = () => {
           setCorrectAnswersCount(storedCorrectAnswersCount || 0);
           setIncorrectAnswersCount(storedIncorrectAnswersCount || 0);
           if (storedQuestions.length > 0) {
-            const nextQuestion = storedQuestions[Math.floor(Math.random() * storedQuestions.length)];
-            setCurrentQuestion(nextQuestion);
+            setCurrentQuestion(storedQuestions[0]);
           }
         } else {
           fetch('/canadatestprep/questions.json')
             .then((response) => response.json())
-            .then((data) => {
-              const shuffledQuestions = data.map((question: Question) => ({
-                ...question,
-                possible_answers: shuffleArray(question.possible_answers),
-              }));
+            .then((data: QuestionsResponse) => {
+              const shuffledQuestions = shuffleArray(
+                data.questions.map((question: Question) => ({
+                  ...question,
+                  possible_answers: shuffleArray(question.possible_answers),
+                }))
+              );
               setQuestions(shuffledQuestions);
               saveState('questions', shuffledQuestions);
+              setCurrentQuestion(shuffledQuestions[0]);
             });
         }
       };
       initializeState();
+
+      // Register the service worker
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/canadatestprep/service-worker.js')
+          .then((registration) => {
+            console.log('Service Worker registered with scope:', registration.scope);
+          })
+          .catch((error) => {
+            console.error('Service Worker registration failed:', error);
+          });
+      }
     }
   }, []);
 
@@ -88,9 +105,18 @@ const Quiz = () => {
 
     if (correct) {
       setCorrectAnswersCount((prev) => prev + 1);
-      setQuestions((prev) => prev.filter((q) => q !== currentQuestion));
+      setQuestions((prev) => {
+        const updatedQuestions = prev.slice(1);
+        saveState('questions', updatedQuestions);
+        return updatedQuestions;
+      });
     } else {
       setIncorrectAnswersCount((prev) => prev + 1);
+      setQuestions((prev) => {
+        const shuffledQuestions = shuffleArray(prev);
+        saveState('questions', shuffledQuestions);
+        return shuffledQuestions;
+      });
     }
 
     setIsSubmitted(true);
@@ -103,8 +129,7 @@ const Quiz = () => {
     setIsCorrect(null);
 
     if (questions.length > 0) {
-      const nextQuestion = questions[Math.floor(Math.random() * questions.length)];
-      setCurrentQuestion(nextQuestion);
+      setCurrentQuestion(questions[0]);
     } else {
       setCurrentQuestion(null);
     }
@@ -113,10 +138,12 @@ const Quiz = () => {
   const handleReset = async () => {
     const response = await fetch('/canadatestprep/questions.json');
     const data = await response.json();
-    const shuffledQuestions = data.map((question: Question) => ({
-      ...question,
-      possible_answers: shuffleArray(question.possible_answers),
-    }));
+    const shuffledQuestions = shuffleArray(
+      data.questions.map((question: Question) => ({
+        ...question,
+        possible_answers: shuffleArray(question.possible_answers),
+      }))
+    );
     setQuestions(shuffledQuestions);
     setCorrectAnswersCount(0);
     setIncorrectAnswersCount(0);
@@ -133,10 +160,10 @@ const Quiz = () => {
     return quote.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
   };
 
-  const totalQuestions = correctAnswersCount + incorrectAnswersCount + questions.length;
-  const correctCount = correctAnswersCount;
-  const incorrectCount = incorrectAnswersCount;
-  const remainingCount = questions.length;
+  const totalAnsweredQuestions = correctAnswersCount + incorrectAnswersCount;
+  const displayTotalQuestions = totalAnsweredQuestions > 0 ? totalAnsweredQuestions : 1;
+  const correctPercentage = ((correctAnswersCount / displayTotalQuestions) * 100).toFixed(0);
+  const incorrectPercentage = ((incorrectAnswersCount / displayTotalQuestions) * 100).toFixed(0);
 
   return (
     <div className="quiz-container">
@@ -148,7 +175,7 @@ const Quiz = () => {
         <h1>Canada Test Prep Quiz</h1>
         <div className="stats-reset">
           <div className="stats">
-            Correct {correctCount} ({((correctCount / totalQuestions) * 100).toFixed(0)}%) Incorrect {incorrectCount} ({((incorrectCount / totalQuestions) * 100).toFixed(0)}%) Remains {remainingCount}
+            Correct {correctAnswersCount} ({correctPercentage}%) Incorrect {incorrectAnswersCount} ({incorrectPercentage}%) Remains {questions.length}
           </div>
           <button onClick={handleReset} className="reset-button">
             Reset
