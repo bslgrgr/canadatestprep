@@ -169,8 +169,6 @@ const Quiz = () => {
     <div className="quiz-container">
       <Head>
         <title>Canada Test Prep Quiz</title>
-        <link rel="stylesheet" href="/canadatestprep/styles.css" />
-        <link rel="icon" href="/canadatestprep/favicon.png" />
       </Head>
       <header className="quiz-header">
         <h1>Canada Test Prep Quiz</h1>
