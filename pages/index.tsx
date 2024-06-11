@@ -11,7 +11,7 @@ type Question = {
   question: string;
   possible_answers: PossibleAnswer[];
   quote: string;
-  page: number;
+  page_number: number;
   paragraph: string;
   online_page: string;
 };
@@ -220,7 +220,7 @@ const Quiz = () => {
                 <p>
                   Source: <a href={currentQuestion.online_page} target="_blank" rel="noopener noreferrer">{currentQuestion.paragraph}</a>
                 </p>
-                <p>Discover Canada, Page {currentQuestion.page}, {currentQuestion.paragraph}</p>
+                <p>Discover Canada, Page {currentQuestion.page_number}, {currentQuestion.paragraph}</p>
               </div>
             )}
           </>
