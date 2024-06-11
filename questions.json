@@ -1,129 +1,379 @@
 {
-    "questions": [
+  "questions": [
+    {
+      "question": "Which monarch is mentioned in the Oath of Citizenship?",
+      "possible_answers": [
         {
-            "question": "Which of the following documents is known as the Great Charter of Freedoms?",
-            "possible_answers": [
-                {
-                    "answer_text": "The British North America Act",
-                    "is_correct": false
-                },
-                {
-                    "answer_text": "The Bill of Rights",
-                    "is_correct": false
-                },
-                {
-                    "answer_text": "The Magna Carta",
-                    "is_correct": true
-                },
-                {
-                    "answer_text": "The Charter of Rights and Freedoms",
-                    "is_correct": false
-                }
-            ],
-            "quote": "Together, these secure for Canadians an 800- year old tradition of ordered liberty, which dates back to the signing of **Magna Carta** in 1215 in England (also known as the Great Charter of Freedoms), including:",
-            "page": 8,
-            "paragraph": "Rights and Responsibilities of Citizenship",
-            "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html#:~:text=Magna%20Carta"
+          "answer": "Queen Elizabeth the Second",
+          "correct": false
         },
         {
-            "question": "Which rights are mentioned in the Canadian Charter of Rights and Freedoms?",
-            "possible_answers": [
-                {
-                    "answer_text": "Mobility Rights",
-                    "is_correct": false
-                },
-                {
-                    "answer_text": "Aboriginal Peoples’ Rights",
-                    "is_correct": false
-                },
-                {
-                    "answer_text": "Official Language Rights and Minority Language Educational Rights",
-                    "is_correct": false
-                },
-                {
-                    "answer_text": "All of the above",
-                    "is_correct": true
-                }
-            ],
-            "quote": "The Charter attempts to summarize fundamental freedoms while also setting out additional rights. The most important of these include: **Mobility Rights — Canadians can live and work anywhere they choose in Canada**",
-            "page": 8,
-            "paragraph": "Rights and Responsibilities of Citizenship",
-            "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html#:~:text=Mobility%20Rights%20%E2%80%94%20Canadians%20can%20live%20and%20work%20anywhere%20they%20choose%20in%20Canada"
+          "answer": "King Charles the Third",
+          "correct": true
         },
         {
-            "question": "What is one of Canada's founding principles?",
-            "possible_answers": [
-                {
-                    "answer_text": "Pottery",
-                    "is_correct": false
-                },
-                {
-                    "answer_text": "The rule of law",
-                    "is_correct": true
-                },
-                {
-                    "answer_text": "Economic exuberance",
-                    "is_correct": false
-                },
-                {
-                    "answer_text": "Artistic exploration",
-                    "is_correct": false
-                }
-            ],
-            "quote": "Obeying the law — **One of Canada’s founding principles is the rule of law**. Individuals and governments are regulated by laws and not by arbitrary actions. No person or group is above the law.",
-            "page": 9,
-            "paragraph": "Citizenship Responsibilities",
-            "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html#:~:text=One%20of%20Canada%E2%80%99s%20founding%20principles%20is%20the%20rule%20of%20law"
+          "answer": "King Edward the Eighth",
+          "correct": false
         },
         {
-            "question": "What must Canadians be willing to do when called to do so?",
-            "possible_answers": [
-                {
-                    "answer_text": "Serve on a jury",
-                    "is_correct": true
-                },
-                {
-                    "answer_text": "Run for office",
-                    "is_correct": false
-                },
-                {
-                    "answer_text": "Join the Canada Revenue Agency",
-                    "is_correct": false
-                },
-                {
-                    "answer_text": "Write legal documents",
-                    "is_correct": false
-                }
-            ],
-            "quote": "Serving on a jury — **When called to do so, you are legally required to serve**. Serving on a jury is a privilege that makes the justice system work as it depends on impartial juries made up of citizens.",
-            "page": 9,
-            "paragraph": "Citizenship Responsibilities",
-            "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html#:~:text=When%20called%20to%20do%20so%2C%20you%20are%20legally%20required%20to%20serve."
-        },
-        {
-            "question": "Which of the following is a way to contribute to Canada?",
-            "possible_answers": [
-                {
-                    "answer_text": "Serving in the regular Canadian Forces",
-                    "is_correct": true
-                },
-                {
-                    "answer_text": "Avoiding community service",
-                    "is_correct": false
-                },
-                {
-                    "answer_text": "Working solely abroad",
-                    "is_correct": false
-                },
-                {
-                    "answer_text": "Opting out of local responsibilities",
-                    "is_correct": false
-                }
-            ],
-            "quote": "There is no compulsory military service in Canada. However, **serving in the regular Canadian Forces (navy, army and air force) is a noble way to contribute to Canada** and an excellent career choice (www.forces.ca).",
-            "page": 9,
-            "paragraph": "Defending Canada",
-            "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html#:~:text=serving%20in%20the%20regular%20Canadian%20Forces%20(navy%2C%20army%20and%20air%20force)%20is%20a%20noble%20way%20to%20contribute%20to%20Canada"
+          "answer": "Queen Victoria",
+          "correct": false
         }
-    ]
+      ],
+      "quote": "I swear (or affirm) That I will be faithful And bear true allegiance To His Majesty **King Charles the Third**...",
+      "page_number": 2,
+      "paragraph": "The Oath of Citizenship",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/oath-citizenship.html#:~:text=King%20Charles%20the%20Third"
+    },
+    {
+      "question": "What does the Oath of Citizenship affirm about the Aboriginal and treaty rights?",
+      "possible_answers": [
+        {
+          "answer": "It denies the recognition of these rights.",
+          "correct": false
+        },
+        {
+          "answer": "It acknowledges and denies the rights.",
+          "correct": false
+        },
+        {
+          "answer": "It recognizes and affirms the rights.",
+          "correct": true
+        },
+        {
+          "answer": "It does not mention Aboriginal and treaty rights.",
+          "correct": false
+        }
+      ],
+      "quote": "...Including the Constitution Which **recognizes and affirms** The Aboriginal and treaty rights...",
+      "page_number": 2,
+      "paragraph": "The Oath of Citizenship",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/oath-citizenship.html#:~:text=recognizes%20and%20affirms"
+    },
+    {
+      "question": "To whom do Canadians profess their loyalty?",
+      "possible_answers": [
+        {
+          "answer_text": "A document such as a constitution",
+          "is_correct": false
+        },
+        {
+          "answer_text": "A banner such as a flag",
+          "is_correct": false
+        },
+        {
+          "answer_text": "A geopolitical entity such as a country",
+          "is_correct": false
+        },
+        {
+          "answer_text": "A person who represents all Canadians",
+          "is_correct": true
+        }
+      ],
+      "quote": "In Canada, **we profess our loyalty to a person who represents all Canadians** and not to a document such as a constitution, a banner such as a flag, or a geopolitical entity such as a country.",
+      "page_number": 2,
+      "paragraph": "Understanding the Oath",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/oath-citizenship.html#:~:text=we%20profess%20our%20loyalty%20to%20a%20person%20who%20represents%20all%20Canadians"
+    },
+    {
+      "question": "What must immigrants between the ages of 18 and 54 have in order to become Canadian citizens?",
+      "possible_answers": [
+        {
+          "answer_text": "A valid passport",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Adequate knowledge of English or French",
+          "is_correct": true
+        },
+        {
+          "answer_text": "A permanent job",
+          "is_correct": false
+        },
+        {
+          "answer_text": "A university degree",
+          "is_correct": false
+        }
+      ],
+      "quote": "**Immigrants between the ages of 18 and 54 must have adequate knowledge of English or French** in order to become Canadian citizens.",
+      "page_number": 3,
+      "paragraph": "Message to Our Readers",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/message-readers.html#:~:text=Immigrants%20between%20the%20ages%20of%2018%20and%2054%20must%20have%20adequate%20knowledge%20of%20English%20or%20French"
+    },
+    {
+      "question": "What form of government does Canada have?",
+      "possible_answers": [
+        {
+          "answer_text": "A federal state",
+          "is_correct": false
+        },
+        {
+          "answer_text": "A parliamentary democracy",
+          "is_correct": false
+        },
+        {
+          "answer_text": "A constitutional monarchy",
+          "is_correct": false
+        },
+        {
+          "answer_text": "All of the above",
+          "is_correct": true
+        }
+      ],
+      "quote": "Canada is **a constitutional monarchy, a parliamentary democracy and a federal state**.",
+      "page_number": 3,
+      "paragraph": "Message to Our Readers",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/message-readers.html#:~:text=a%20constitutional%20monarchy%2C%20a%20parliamentary%20democracy%20and%20a%20federal%20state"
+    },
+    {
+      "question": "What are Canadian citizens required to respect?",
+      "possible_answers": [
+        {
+          "answer_text": "Other countries' laws",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Canada's laws and the rights and freedoms of others",
+          "is_correct": true
+        },
+        {
+          "answer_text": "Only the rights of other Canadians",
+          "is_correct": false
+        },
+        {
+          "answer_text": "The laws of neighboring countries",
+          "is_correct": false
+        }
+      ],
+      "quote": "Canadian citizens enjoy many rights, but Canadians also have responsibilities. They **must obey Canada\u2019s laws and respect the rights and freedoms of others**.",
+      "page_number": 3,
+      "paragraph": "Message to Our Readers",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/message-readers.html#:~:text=must%20obey%20Canada%E2%80%99s%20laws%20and%20respect%20the%20rights%20and%20freedoms%20of%20others"
+    },
+    {
+      "question": "What significant historical document signed in 1215 in England is also known as the Great Charter of Freedoms?",
+      "possible_answers": [
+        {
+          "answer": "The Bill of Rights",
+          "correct": false
+        },
+        {
+          "answer": "The Magna Carta",
+          "correct": true
+        },
+        {
+          "answer": "The Declaration of Independence",
+          "correct": false
+        },
+        {
+          "answer": "The English Civil Code",
+          "correct": false
+        }
+      ],
+      "quote": "Together, these secure for Canadians an 800- year old tradition of ordered liberty, which dates back to the signing of **Magna Carta in 1215 in England** (also known as the Great Charter of Freedoms)...",
+      "page_number": 8,
+      "paragraph": "Rights and Responsibilities of Citizenship",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html#:~:text=Magna%20Carta%20in%201215%20in%20England"
+    },
+    {
+      "question": "What right allows Canadians to challenge unlawful detention by the state?",
+      "possible_answers": [
+        {
+          "answer": "Freedom of expression",
+          "correct": false
+        },
+        {
+          "answer": "Habeas corpus",
+          "correct": true
+        },
+        {
+          "answer": "Right to privacy",
+          "correct": false
+        },
+        {
+          "answer": "Freedom of assembly",
+          "correct": false
+        }
+      ],
+      "quote": "**Habeas corpus, the right to challenge unlawful detention by the state**, comes from English common law.",
+      "page_number": 8,
+      "paragraph": "Rights and Responsibilities of Citizenship",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html#:~:text=Habeas%20corpus,%20the%20right%20to%20challenge%20unlawful%20detention%20by%20the%20state"
+    },
+    {
+      "question": "When was the Constitution of Canada amended to include the Canadian Charter of Rights and Freedoms?",
+      "possible_answers": [
+        {
+          "answer": "1867",
+          "correct": false
+        },
+        {
+          "answer": "1945",
+          "correct": false
+        },
+        {
+          "answer": "1982",
+          "correct": true
+        },
+        {
+          "answer": "1991",
+          "correct": false
+        }
+      ],
+      "quote": "The Constitution of Canada was **amended in 1982** to entrench the Canadian Charter of Rights and Freedoms...",
+      "page_number": 8,
+      "paragraph": "Rights and Responsibilities of Citizenship",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html#:~:text=amended%20in%201982"
+    },
+    {
+      "question": "What guarantees that French and English have equal status in Parliament and throughout the government?",
+      "possible_answers": [
+        {
+          "answer": "Multiculturalism",
+          "correct": false
+        },
+        {
+          "answer": "Mobility Rights",
+          "correct": false
+        },
+        {
+          "answer": "Aboriginal Peoples\u2019 Rights",
+          "correct": false
+        },
+        {
+          "answer": "Official Language Rights and Minority Language Educational Rights",
+          "correct": true
+        }
+      ],
+      "quote": "**Official Language Rights and Minority Language Educational Rights** \u2014 French and English have equal status in Parliament and throughout the government.",
+      "page_number": 8,
+      "paragraph": "Rights and Responsibilities of Citizenship",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html#:~:text=Official%20Language%20Rights%20and%20Minority%20Language%20Educational%20Rights"
+    },
+    {
+      "question": "What phrase in the Canadian Charter of Rights and Freedoms emphasizes the importance of religious traditions in Canadian society?",
+      "possible_answers": [
+        {
+          "answer": "The supremacy of God and the rule of law",
+          "correct": true
+        },
+        {
+          "answer": "Freedom of conscience and religion",
+          "correct": false
+        },
+        {
+          "answer": "Habeas corpus",
+          "correct": false
+        },
+        {
+          "answer": "Mobility Rights",
+          "correct": false
+        }
+      ],
+      "quote": "... the Charter of Rights and Freedoms, which begins with the words, **\u201cWhereas Canada is founded upon principles that recognize the supremacy of God and the rule of law.\u201d** This phrase underlines the importance of religious traditions to Canadian society...",
+      "page_number": 8,
+      "paragraph": "Rights and Responsibilities of Citizenship",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html#:~:text=the%20supremacy%20of%20God%20and%20the%20rule%20of%20law."
+    },
+    {
+      "question": "Who proclaimed the amended Constitution in Ottawa in 1982?",
+      "possible_answers": [
+        {
+          "answer_text": "Prime Minister Pierre Trudeau",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Queen Victoria",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Queen Elizabeth I",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Queen Elizabeth II",
+          "is_correct": true
+        }
+      ],
+      "quote": "**Queen Elizabeth II** proclaiming the amended Constitution, Ottawa, 1982",
+      "page_number": 8,
+      "paragraph": "Rights and Responsibilities of Citizenship (photo)",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html#:~:text=Queen%20Elizabeth%20II"
+    },
+    {
+      "question": "In which year did Queen Elizabeth II proclaim the amended Constitution in Ottawa?",
+      "possible_answers": [
+        {
+          "answer_text": "1978",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1982",
+          "is_correct": true
+        },
+        {
+          "answer_text": "1992",
+          "is_correct": false
+        },
+        {
+          "answer_text": "2000",
+          "is_correct": false
+        }
+      ],
+      "quote": "Queen Elizabeth II proclaiming the amended Constitution, Ottawa, **1982**",
+      "page_number": 8,
+      "paragraph": "Rights and Responsibilities of Citizenship (photo)",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html#:~:text=1982"
+    },
+    {
+      "question": "Are men and women treated equally under the law in Canada?",
+      "possible_answers": [
+        {
+          "answer_text": "Yes",
+          "is_correct": true
+        },
+        {
+          "answer_text": "No",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Only men have more rights",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Only women have more rights",
+          "is_correct": false
+        }
+      ],
+      "quote": "In Canada, **men and women are equal under the law**.",
+      "page_number": 9,
+      "paragraph": "The Equality of Women and Men",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html#:~:text=men%20and%20women%20are%20equal%20under%20the%20law"
+    },
+    {
+      "question": "What happens to those guilty of gender-based violence in Canada?",
+      "possible_answers": [
+        {
+          "answer_text": "They are severely punished",
+          "is_correct": true
+        },
+        {
+          "answer_text": "They are given a warning",
+          "is_correct": false
+        },
+        {
+          "answer_text": "They are deported",
+          "is_correct": false
+        },
+        {
+          "answer_text": "They are ignored",
+          "is_correct": false
+        }
+      ],
+      "quote": "Those guilty of these crimes **are severely punished** under Canada\u2019s criminal laws.",
+      "page_number": 9,
+      "paragraph": "The Equality of Women and Men",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/rights-resonsibilities-citizenship.html#:~:text=are%20severely%20punished"
+    }
+  ]
 }
