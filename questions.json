@@ -1266,6 +1266,1406 @@
       "page_number": 14,
       "paragraph": "Aboriginal Peoples",
       "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=However%2C%20Aboriginals%20and%20Europeans%20formed%20strong%20economic%2C%20religious%20and%20military%20bonds"
+    },
+    {
+      "question": "Who was the first European to draw a map of Canada\u2019s East Coast?",
+      "possible_answers": [
+        {
+          "answer_text": "John Cabot",
+          "is_correct": true
+        },
+        {
+          "answer_text": "Christopher Columbus",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Jacques Cartier",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Martin Frobisher",
+          "is_correct": false
+        }
+      ],
+      "quote": "European exploration began in earnest in 1497 with the expedition of **John Cabot**, who was the first to draw a map of Canada\u2019s East Coast.",
+      "page_number": 14,
+      "paragraph": "The First Europeans",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=John%20Cabot"
+    },
+    {
+      "question": "When did the Vikings from Iceland reach Labrador and the island of Newfoundland?",
+      "possible_answers": [
+        {
+          "answer_text": "500 years ago",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1,000 years ago",
+          "is_correct": true
+        },
+        {
+          "answer_text": "1,500 years ago",
+          "is_correct": false
+        },
+        {
+          "answer_text": "2,000 years ago",
+          "is_correct": false
+        }
+      ],
+      "quote": "The Vikings from Iceland who colonized Greenland **1,000 years ago** also reached Labrador and the island of Newfoundland.",
+      "page_number": 14,
+      "paragraph": "The First Europeans",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=1%2C000%20years%20ago"
+    },
+    {
+      "question": "In what year did John Cabot set foot on Newfoundland or Cape Breton Island?",
+      "possible_answers": [
+        {
+          "answer_text": "1608",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1535",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1497",
+          "is_correct": true
+        },
+        {
+          "answer_text": "1610",
+          "is_correct": false
+        }
+      ],
+      "quote": "setting foot on Newfoundland or Cape Breton Island in **1497** and claiming the New Founde Land for England.",
+      "page_number": 14,
+      "paragraph": "The First Europeans (photo)",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=1497"
+    },
+    {
+      "question": "When did English settlement in Canada begin?",
+      "possible_answers": [
+        {
+          "answer_text": "1497",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1500",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1534",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1610",
+          "is_correct": true
+        }
+      ],
+      "quote": "**English settlement did not begin until 1610**",
+      "page_number": 14,
+      "paragraph": "The First Europeans (photo)",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=English%20settlement%20did%20not%20begin%20until%201610"
+    },
+    {
+      "question": "John Cabot was an immigrant from which country to England?",
+      "possible_answers": [
+        {
+          "answer_text": "France",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Spain",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Italy",
+          "is_correct": true
+        },
+        {
+          "answer_text": "Portugal",
+          "is_correct": false
+        }
+      ],
+      "quote": "**John Cabot, an Italian immigrant to England**, was the first to map Canada\u2019s Atlantic shore.",
+      "page_number": 14,
+      "paragraph": "The First Europeans (photo)",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=an%20Italian%20immigrant%20to%20England"
+    },
+    {
+      "question": "Between which years did Jacques Cartier make his voyages across the Atlantic?",
+      "possible_answers": [
+        {
+          "answer_text": "1530 and 1540",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1534 and 1542",
+          "is_correct": true
+        },
+        {
+          "answer_text": "1550 and 1560",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1520 and 1530",
+          "is_correct": false
+        }
+      ],
+      "quote": "**Between 1534 and 1542**, Jacques Cartier made three voyages across the Atlantic, claiming the land for King Francis I of France.",
+      "page_number": 14,
+      "paragraph": "Exploring a River, Naming Canada",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=Between%201534%20and%201542"
+    },
+    {
+      "question": "Who did Jacques Cartier claim the land for during his voyages?",
+      "possible_answers": [
+        {
+          "answer_text": "King Henry VIII of England",
+          "is_correct": false
+        },
+        {
+          "answer_text": "King Louis XIV of France",
+          "is_correct": false
+        },
+        {
+          "answer_text": "King Francis I of France",
+          "is_correct": true
+        },
+        {
+          "answer_text": "King Charles I of Spain",
+          "is_correct": false
+        }
+      ],
+      "quote": "Jacques Cartier made three voyages across the Atlantic, claiming the land for **King Francis I of France**.",
+      "page_number": 14,
+      "paragraph": "Exploring a River, Naming Canada",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=King%20Francis%20I%20of%20France"
+    },
+    {
+      "question": "What does the Iroquoian word 'kanata' mean?",
+      "possible_answers": [
+        {
+          "answer_text": "Lake",
+          "is_correct": false
+        },
+        {
+          "answer_text": "River",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Village",
+          "is_correct": true
+        },
+        {
+          "answer_text": "Mountain",
+          "is_correct": false
+        }
+      ],
+      "quote": "Cartier heard two captured guides speak the Iroquoian word **kanata, meaning \u201cvillage.\u201d**",
+      "page_number": 14,
+      "paragraph": "Exploring a River, Naming Canada",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=kanata%2C%20meaning%20\u201cvillage\u201d"
+    },
+    {
+      "question": "When did the name of Canada begin appearing on maps?",
+      "possible_answers": [
+        {
+          "answer_text": "In the 1560s",
+          "is_correct": false
+        },
+        {
+          "answer_text": "In the 1520s",
+          "is_correct": false
+        },
+        {
+          "answer_text": "In the 1550s",
+          "is_correct": true
+        },
+        {
+          "answer_text": "In the 1540s",
+          "is_correct": false
+        }
+      ],
+      "quote": "By the **1550s**, the name of Canada began appearing on maps.",
+      "page_number": 14,
+      "paragraph": "Exploring a River, Naming Canada",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=By%20the%201550s"
+    },
+    {
+      "question": "Who established the first European settlement north of Florida in 1604?",
+      "possible_answers": [
+        {
+          "answer_text": "Jean Talon and Count Frontenac",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Pierre de Monts and Samuel de Champlain",
+          "is_correct": true
+        },
+        {
+          "answer_text": "John Cabot and Jacques Cartier",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Henry Hudson and Christopher Columbus",
+          "is_correct": false
+        }
+      ],
+      "quote": "In 1604, **the first European settlement north of Florida was established by French explorers Pierre de Monts and Samuel de Champlain**, first on St. Croix Island (in present-day Maine), then at Port-Royal, in Acadia (present-day Nova Scotia).",
+      "page_number": 15,
+      "paragraph": "Royal New France",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=the%20first%20European%20settlement%20north%20of%20Florida%20was%20established%20by%20French%20explorers%20Pierre%20de%20Monts%20and%20Samuel%20de%20Champlain"
+    },
+    {
+      "question": "In what year did Samuel de Champlain build a fortress at Qu\u00e9bec City?",
+      "possible_answers": [
+        {
+          "answer_text": "1701",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1608",
+          "is_correct": true
+        },
+        {
+          "answer_text": "1604",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1620",
+          "is_correct": false
+        }
+      ],
+      "quote": "In **1608 Champlain built a fortress at what is now Qu\u00e9bec City**.",
+      "page_number": 15,
+      "paragraph": "Royal New France",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=In%201608%20Champlain%20built%20a%20fortress%20at%20what%20is%20now%20Qu%C3%A9bec%20City"
+    },
+    {
+      "question": "What drove the fur-trade economy in the collaboration between the French and Aboriginal people?",
+      "possible_answers": [
+        {
+          "answer_text": "The demand for mink coats in Europe",
+          "is_correct": false
+        },
+        {
+          "answer_text": "The demand for silk in Europe",
+          "is_correct": false
+        },
+        {
+          "answer_text": "The demand for beaver pelts in Europe",
+          "is_correct": true
+        },
+        {
+          "answer_text": "The demand for buffalo hides in Europe",
+          "is_correct": false
+        }
+      ],
+      "quote": "The French and Aboriginal people collaborated in the vast fur-trade economy, driven by the **demand for beaver pelts in Europe**.",
+      "page_number": 15,
+      "paragraph": "Royal New France",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=driven%20by%20the%20demand%20for%20beaver%20pelts%20in%20Europe"
+    },
+    {
+      "question": "When did the French and the Iroquois make peace?",
+      "possible_answers": [
+        {
+          "answer_text": "1608",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1620",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1701",
+          "is_correct": true
+        },
+        {
+          "answer_text": "1755",
+          "is_correct": false
+        }
+      ],
+      "quote": "The French and the Iroquois **made peace in 1701**.",
+      "page_number": 15,
+      "paragraph": "Royal New France",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=The%20French%20and%20the%20Iroquois%20made%20peace%20in%201701"
+    },
+    {
+      "question": "With which First Nations did Champlain ally the colony?",
+      "possible_answers": [
+        {
+          "answer_text": "Algonquin, Montagnais, and Huron",
+          "is_correct": true
+        },
+        {
+          "answer_text": "Iroquois, Mi'kmaq, and Haida",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Inuit, Blackfoot, and Cree",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Dene, Coast Salish, and Nuu-chah-nulth",
+          "is_correct": false
+        }
+      ],
+      "quote": "Champlain **allied the colony with the Algonquin, Montagnais, and Huron**, historic enemies of the Iroquois.",
+      "page_number": 15,
+      "paragraph": "Royal New France",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=allied%20the%20colony%20with%20the%20Algonquin%2C%20Montagnais%2C%20and%20Huron"
+    },
+    {
+      "question": "Who were the French explorers that established the first European settlement in 1604?",
+      "possible_answers": [
+        {
+          "answer_text": "Pierre de Monts and Samuel de Champlain",
+          "is_correct": true
+        },
+        {
+          "answer_text": "Henry Hudson and Christopher Columbus",
+          "is_correct": false
+        },
+        {
+          "answer_text": "John Cabot and Jacques Cartier",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Jean Talon and Count Frontenac",
+          "is_correct": false
+        }
+      ],
+      "quote": "In 1604, the first European settlement north of Florida was established by French explorers **Pierre de Monts and Samuel de Champlain**.",
+      "page_number": 15,
+      "paragraph": "Royal New France",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=Pierre%20de%20Monts%20and%20Samuel%20de%20Champlain"
+    },
+    {
+      "question": "Which leaders built a French Empire in North America?",
+      "possible_answers": [
+        {
+          "answer_text": "Jean Talon, Bishop Laval, and Count Frontenac",
+          "is_correct": true
+        },
+        {
+          "answer_text": "Pierre de Monts, Samuel de Champlain, and Henry Hudson",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Jacques Cartier, John Cabot, and Christopher Columbus",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Jean de Br\u00e9beuf, Jean Talon, and Bishop Laval",
+          "is_correct": false
+        }
+      ],
+      "quote": "Outstanding leaders like **Jean Talon, Bishop Laval, and Count Frontenac built a French Empire in North America**.",
+      "page_number": 15,
+      "paragraph": "Royal New France",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=Jean%20Talon%2C%20Bishop%20Laval%2C%20and%20Count%20Frontenac%20built%20a%20French%20Empire%20in%20North%20America"
+    },
+    {
+      "question": "Who refused to surrender Quebec to the English in 1690?",
+      "possible_answers": [
+        {
+          "answer_text": "Count Frontenac",
+          "is_correct": true
+        },
+        {
+          "answer_text": "Sir Guy Carleton",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Pierre Le Moyne, Sieur d\u2019Iberville",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Lord Dorchester",
+          "is_correct": false
+        }
+      ],
+      "quote": "**Count Frontenac** refused to surrender Quebec to the English in 1690, saying: 'My only reply will be from the mouths of my cannons!'",
+      "page_number": 15,
+      "paragraph": "Royal New France (photo)",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=Count%20Frontenac"
+    },
+    {
+      "question": "Which hero of New France won many victories over the English in the late 17th and early 18th centuries?",
+      "possible_answers": [
+        {
+          "answer_text": "Pierre Le Moyne, Sieur d\u2019Iberville",
+          "is_correct": true
+        },
+        {
+          "answer_text": "Count Frontenac",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Sir Guy Carleton",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Lord Dorchester",
+          "is_correct": false
+        }
+      ],
+      "quote": "**Pierre Le Moyne, Sieur d\u2019Iberville, was a great hero of New France, winning many victories over the English**...",
+      "page_number": 15,
+      "paragraph": "Royal New France (photo)",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=Pierre%20Le%20Moyne%2C%20Sieur%20d%E2%80%99Iberville%2C%20was%20a%20great%20hero%20of%20New%20France"
+    },
+    {
+      "question": "Who defended the rights of the Canadiens and defeated an American military invasion of Quebec in 1775?",
+      "possible_answers": [
+        {
+          "answer_text": "Sir Guy Carleton",
+          "is_correct": true
+        },
+        {
+          "answer_text": "Count Frontenac",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Pierre Le Moyne, Sieur d\u2019Iberville",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Lord Dorchester",
+          "is_correct": false
+        }
+      ],
+      "quote": "**Sir Guy Carleton (Lord Dorchester), as Governor of Quebec**, defended the rights of the Canadiens, defeated an American military invasion of Quebec in 1775...",
+      "page_number": 15,
+      "paragraph": "Royal New France (photo)",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=Sir%20Guy%20Carleton"
+    },
+    {
+      "question": "In which year did Sir Guy Carleton defeat an American military invasion of Quebec?",
+      "possible_answers": [
+        {
+          "answer_text": "1775",
+          "is_correct": true
+        },
+        {
+          "answer_text": "1783",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1690",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1700",
+          "is_correct": false
+        }
+      ],
+      "quote": "Sir Guy Carleton (Lord Dorchester)... **defeated an American military invasion of Quebec in 1775**...",
+      "page_number": 15,
+      "paragraph": "Royal New France (photo)",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=defeated%20an%20American%20military%20invasion%20of%20Quebec%20in%201775"
+    },
+    {
+      "question": "Which company was granted exclusive trading rights over the watershed draining into Hudson Bay in 1670?",
+      "possible_answers": [
+        {
+          "answer_text": "North West Company",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Montreal Fur Company",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Hudson\u2019s Bay Company",
+          "is_correct": true
+        },
+        {
+          "answer_text": "St. Lawrence Company",
+          "is_correct": false
+        }
+      ],
+      "quote": "In 1670, King Charles II of England **granted the Hudson\u2019s Bay Company exclusive trading rights over the watershed draining into Hudson Bay**.",
+      "page_number": 15,
+      "paragraph": "Struggle for a Continent",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=granted%20the%20Hudson%E2%80%99s%20Bay%20Company%20exclusive%20trading%20rights%20over%20the%20watershed%20draining%20into%20Hudson%20Bay"
+    },
+    {
+      "question": "Who were the skilled and courageous men that travelled by canoe and formed strong alliances with First Nations?",
+      "possible_answers": [
+        {
+          "answer_text": "Samurais",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Voyageurs and coureurs des bois",
+          "is_correct": true
+        },
+        {
+          "answer_text": "Explorers",
+          "is_correct": false
+        },
+        {
+          "answer_text": "North West Company traders",
+          "is_correct": false
+        }
+      ],
+      "quote": "The skilled and courageous men who travelled by canoe were called **voyageurs and coureurs des bois**, and formed strong alliances with First Nations.",
+      "page_number": 15,
+      "paragraph": "Struggle for a Continent",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=The%20skilled%20and%20courageous%20men%20who%20travelled%20by%20canoe%20were%20called%20voyageurs%20and%20coureurs%20des%20bois"
+    },
+    {
+      "question": "In the 1700s, which two countries battled for control of North America?",
+      "possible_answers": [
+        {
+          "answer_text": "Spain and Portugal",
+          "is_correct": false
+        },
+        {
+          "answer_text": "France and Great Britain",
+          "is_correct": true
+        },
+        {
+          "answer_text": "Netherlands and France",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Germany and Italy",
+          "is_correct": false
+        }
+      ],
+      "quote": "In the 1700s **France and Great Britain battled for control of North America**.",
+      "page_number": 15,
+      "paragraph": "Struggle for a Continent",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=In%20the%201700s%20France%20and%20Great%20Britain%20battled%20for%20control%20of%20North%20America"
+    },
+    {
+      "question": "What event marked the end of France\u2019s empire in America?",
+      "possible_answers": [
+        {
+          "answer_text": "Seven Years' War",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Battle of the Plains of Abraham",
+          "is_correct": true
+        },
+        {
+          "answer_text": "Signing of the Treaty of Paris",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Battle of Waterloo",
+          "is_correct": false
+        }
+      ],
+      "quote": "In 1759, the British defeated the French in the **Battle of the Plains of Abraham at Qu\u00e9bec City \u2014 marking the end of France\u2019s empire in America**.",
+      "page_number": 15,
+      "paragraph": "Struggle for a Continent",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=marking%20the%20end%20of%20France%E2%80%99s%20empire%20in%20America"
+    },
+    {
+      "question": "Which commanders were killed during the Battle of the Plains of Abraham?",
+      "possible_answers": [
+        {
+          "answer_text": "Brigadier James Wolfe and the Marquis de Montcalm",
+          "is_correct": true
+        },
+        {
+          "answer_text": "General James Robertson and the Count of Montjoy",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Henry Hudson and Samuel de Champlain",
+          "is_correct": false
+        },
+        {
+          "answer_text": "John Cabot and Jacques Cartier",
+          "is_correct": false
+        }
+      ],
+      "quote": "The commanders of both armies, **Brigadier James Wolfe and the Marquis de Montcalm**, were killed leading their troops in battle.",
+      "page_number": 15,
+      "paragraph": "Struggle for a Continent",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=Brigadier%20James%20Wolfe%20and%20the%20Marquis%20de%20Montcalm"
+    },
+    {
+      "question": "What new name was given to the colony by Great Britain after the war?",
+      "possible_answers": [
+        {
+          "answer_text": "New France",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Ontario",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Quebec City",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Province of Quebec",
+          "is_correct": true
+        }
+      ],
+      "quote": "Following the war, **Great Britain renamed the colony the \u201cProvince of Quebec.\u201d** The Frenchspeaking Catholic people, known as habitants or Canadiens, strove to preserve their way of life in the English-speaking, Protestant-ruled British Empire.",
+      "page_number": 15,
+      "paragraph": "The Province of Quebec",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=Following%20the%20war%2C%20Great%20Britain%20renamed%20the%20colony%20the%20%E2%80%9CProvince%20of%20Quebec.%E2%80%9D"
+    },
+    {
+      "question": "What did the French-speaking Catholic people in Quebec strive to preserve?",
+      "possible_answers": [
+        {
+          "answer_text": "Their military strength",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Their national borders",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Their way of life",
+          "is_correct": true
+        },
+        {
+          "answer_text": "Their economic system",
+          "is_correct": false
+        }
+      ],
+      "quote": "The Frenchspeaking Catholic people, known as habitants or Canadiens, **strove to preserve their way of life** in the English-speaking, Protestant-ruled British Empire.",
+      "page_number": 15,
+      "paragraph": "The Province of Quebec",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=The%20Frenchspeaking%20Catholic%20people%2C%20known%20as%20habitants%20or%20Canadiens%2C%20strove%20to%20preserve%20their%20way%20of%20life"
+    },
+    {
+      "question": "What were the French-speaking Catholic people in Quebec also known as?",
+      "possible_answers": [
+        {
+          "answer_text": "Voyageurs",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Acadians",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Coues River Bois",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Habitants or Canadiens",
+          "is_correct": true
+        }
+      ],
+      "quote": "The Frenchspeaking Catholic people, known as **habitants or Canadiens**, strove to preserve their way of life in the English-speaking, Protestant-ruled British Empire.",
+      "page_number": 15,
+      "paragraph": "The Province of Quebec",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=The%20Frenchspeaking%20Catholic%20people%2C%20known%20as%20habitants%20or%20Canadiens"
+    },
+    {
+      "question": "What did the Quebec Act of 1774 allow for Catholics?",
+      "possible_answers": [
+        {
+          "answer_text": "To own land",
+          "is_correct": false
+        },
+        {
+          "answer_text": "To sell goods",
+          "is_correct": false
+        },
+        {
+          "answer_text": "To hold public office",
+          "is_correct": true
+        },
+        {
+          "answer_text": "To serve in the military",
+          "is_correct": false
+        }
+      ],
+      "quote": "It allowed **religious freedom for Catholics and permitted them to hold public office**, a practice not then allowed in Britain.",
+      "page_number": 15,
+      "paragraph": "A Tradition of Accommodation",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=It%20allowed%20religious%20freedom%20for%20Catholics%20and%20permitted%20them%20to%20hold%20public%20office"
+    },
+    {
+      "question": "Which act restored French civil law while maintaining British criminal law?",
+      "possible_answers": [
+        {
+          "answer_text": "Constitution Act",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Quebec Act",
+          "is_correct": true
+        },
+        {
+          "answer_text": "British North America Act",
+          "is_correct": false
+        },
+        {
+          "answer_text": "War Measures Act",
+          "is_correct": false
+        }
+      ],
+      "quote": "The **Quebec Act** restored French civil law while maintaining British criminal law.",
+      "page_number": 15,
+      "paragraph": "A Tradition of Accommodation",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=The%20Quebec%20Act%20restored%20French%20civil%20law%20while%20maintaining%20British%20criminal%20law"
+    },
+    {
+      "question": "When was the Quebec Act passed by the British Parliament?",
+      "possible_answers": [
+        {
+          "answer_text": "1774",
+          "is_correct": true
+        },
+        {
+          "answer_text": "1783",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1763",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1791",
+          "is_correct": false
+        }
+      ],
+      "quote": "To better govern the French Roman Catholic majority, the British Parliament passed the **Quebec Act of 1774**.",
+      "page_number": 15,
+      "paragraph": "A Tradition of Accommodation",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=British%20Parliament%20passed%20the%20Quebec%20Act%20of%201774"
+    },
+    {
+      "question": "In what year did the 13 British colonies to the south of Quebec declare independence?",
+      "possible_answers": [
+        {
+          "answer_text": "1776",
+          "is_correct": true
+        },
+        {
+          "answer_text": "1792",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1800",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1812",
+          "is_correct": false
+        }
+      ],
+      "quote": "In **1776**, the 13 British colonies to the south of Quebec declared independence and formed the United States.",
+      "page_number": 15,
+      "paragraph": "United Empire Loyalists",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=In%201776"
+    },
+    {
+      "question": "Who led thousands of Loyalist Mohawk Indians into Canada?",
+      "possible_answers": [
+        {
+          "answer_text": "Joseph Brant",
+          "is_correct": true
+        },
+        {
+          "answer_text": "George Washington",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Isaac Brock",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Tecumseh",
+          "is_correct": false
+        }
+      ],
+      "quote": "**Joseph Brant led thousands of Loyalist Mohawk Indians into Canada**.",
+      "page_number": 15,
+      "paragraph": "United Empire Loyalists",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=Joseph%20Brant%20led%20thousands%20of%20Loyalist%20Mohawk%20Indians%20into%20Canada."
+    },
+    {
+      "question": "Approximately how many black Loyalists came north seeking a better life?",
+      "possible_answers": [
+        {
+          "answer_text": "1,000",
+          "is_correct": false
+        },
+        {
+          "answer_text": "2,000",
+          "is_correct": false
+        },
+        {
+          "answer_text": "3,000",
+          "is_correct": true
+        },
+        {
+          "answer_text": "4,000",
+          "is_correct": false
+        }
+      ],
+      "quote": "About **3,000 black Loyalists**, freedmen and slaves, came north seeking a better life.",
+      "page_number": 15,
+      "paragraph": "United Empire Loyalists",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=About%203%2C000%20black%20Loyalists"
+    },
+    {
+      "question": "Which group of Loyalists established Freetown, Sierra Leone (West Africa) in 1792?",
+      "possible_answers": [
+        {
+          "answer_text": "French Loyalists",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Black Nova Scotians",
+          "is_correct": true
+        },
+        {
+          "answer_text": "Dutch Loyalists",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Scandinavian Loyalists",
+          "is_correct": false
+        }
+      ],
+      "quote": "In turn, in 1792, **some black Nova Scotians** moved on to establish Freetown, Sierra Leone (West Africa), a new British colony for freed slaves.",
+      "page_number": 15,
+      "paragraph": "United Empire Loyalists",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=some%20black%20Nova%20Scotians"
+    },
+    {
+      "question": "When was the first representative assembly elected in Halifax, Nova Scotia?",
+      "possible_answers": [
+        {
+          "answer_text": "1758",
+          "is_correct": true
+        },
+        {
+          "answer_text": "1773",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1785",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1791",
+          "is_correct": false
+        }
+      ],
+      "quote": "The first representative assembly was elected in **Halifax, Nova Scotia, in 1758**.",
+      "page_number": 16,
+      "paragraph": "The Beginnings of Democracy",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=Halifax%2C%20Nova%20Scotia%2C%20in%201758"
+    },
+    {
+      "question": "What significant change did the Constitutional Act of 1791 make to the Province of Quebec?",
+      "possible_answers": [
+        {
+          "answer_text": "It divided Quebec into Upper and Lower Canada",
+          "is_correct": true
+        },
+        {
+          "answer_text": "It merged Quebec and Ontario into one province",
+          "is_correct": false
+        },
+        {
+          "answer_text": "It established the first elected legislative assemblies in all of Canada",
+          "is_correct": false
+        },
+        {
+          "answer_text": "It renamed the Province of Quebec to Canada",
+          "is_correct": false
+        }
+      ],
+      "quote": "The Constitutional Act of 1791 **divided the Province of Quebec into Upper Canada (later Ontario)**, which was mainly Loyalist, Protestant and English-speaking, and Lower Canada (later Quebec), heavily Catholic and French-speaking.",
+      "page_number": 16,
+      "paragraph": "The Beginnings of Democracy",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=divided%20the%20Province%20of%20Quebec%20into%20Upper%20Canada%20(later%20Ontario)"
+    },
+    {
+      "question": "When did Prince Edward Island establish their representative assembly?",
+      "possible_answers": [
+        {
+          "answer_text": "1758",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1773",
+          "is_correct": true
+        },
+        {
+          "answer_text": "1785",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1791",
+          "is_correct": false
+        }
+      ],
+      "quote": "Prince Edward Island **followed in 1773**",
+      "page_number": 16,
+      "paragraph": "The Beginnings of Democracy",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=Prince%20Edward%20Island%20followed%20in%201773"
+    },
+    {
+      "question": "Which Act divided the Province of Quebec into Upper Canada and Lower Canada?",
+      "possible_answers": [
+        {
+          "answer_text": "The Constitutional Act of 1791",
+          "is_correct": true
+        },
+        {
+          "answer_text": "The British North America Act",
+          "is_correct": false
+        },
+        {
+          "answer_text": "The Quebec Act",
+          "is_correct": false
+        },
+        {
+          "answer_text": "The Act of Union 1840",
+          "is_correct": false
+        }
+      ],
+      "quote": "The **Constitutional Act of 1791** divided the Province of Quebec into Upper Canada (later Ontario)...",
+      "page_number": 16,
+      "paragraph": "The Beginnings of Democracy",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=Constitutional%20Act%20of%201791"
+    },
+    {
+      "question": "Which colony had its first representative assembly in 1773?",
+      "possible_answers": [
+        {
+          "answer_text": "Prince Edward Island",
+          "is_correct": true
+        },
+        {
+          "answer_text": "New Brunswick",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Upper Canada",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Nova Scotia",
+          "is_correct": false
+        }
+      ],
+      "quote": "**Prince Edward Island followed in 1773**, New Brunswick in 1785.",
+      "page_number": 16,
+      "paragraph": "The Beginnings of Democracy",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=Prince%20Edward%20Island%20followed%20in%201773"
+    },
+    {
+      "question": "Who led Upper Canada towards the abolition of slavery in 1793?",
+      "possible_answers": [
+        {
+          "answer_text": "William Wilberforce",
+          "is_correct": false
+        },
+        {
+          "answer_text": "John Graves Simcoe",
+          "is_correct": true
+        },
+        {
+          "answer_text": "Henry Dundas",
+          "is_correct": false
+        },
+        {
+          "answer_text": "George Washington",
+          "is_correct": false
+        }
+      ],
+      "quote": "In **1793, Upper Canada, led by Lieutenant Governor John Graves Simcoe**, a Loyalist military officer, became the first province in the Empire to move toward abolition.",
+      "page_number": 16,
+      "paragraph": "Abolition of Slavery",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=In%201793%2C%20Upper%20Canada%2C%20led%20by%20Lieutenant%20Governor%20John%20Graves%20Simcoe"
+    },
+    {
+      "question": "In what year did the British Parliament prohibit the buying and selling of slaves?",
+      "possible_answers": [
+        {
+          "answer_text": "1807",
+          "is_correct": true
+        },
+        {
+          "answer_text": "1793",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1833",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1865",
+          "is_correct": false
+        }
+      ],
+      "quote": "In **1807, the British Parliament prohibited the buying and selling of slaves**.",
+      "page_number": 16,
+      "paragraph": "Abolition of Slavery",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=In%201807%2C%20the%20British%20Parliament%20prohibited%20the%20buying%20and%20selling%20of%20slaves"
+    },
+    {
+      "question": "Which network helped slaves escape to Canada?",
+      "possible_answers": [
+        {
+          "answer_text": "The Freedom Trail",
+          "is_correct": false
+        },
+        {
+          "answer_text": "The Southern Express",
+          "is_correct": false
+        },
+        {
+          "answer_text": "The Underground Railroad",
+          "is_correct": true
+        },
+        {
+          "answer_text": "The Liberty Passage",
+          "is_correct": false
+        }
+      ],
+      "quote": "Thousands of slaves escaped from the United States, followed \u201cthe North Star\u201d and settled in Canada via **the Underground Railroad**, a Christian anti-slavery network.",
+      "page_number": 16,
+      "paragraph": "Abolition of Slavery",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=via%20the%20Underground%20Railroad"
+    },
+    {
+      "question": "What did the British Parliament do in 1833 regarding slavery?",
+      "possible_answers": [
+        {
+          "answer_text": "Encouraged the expansion of slavery",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Abolished slavery throughout the Empire",
+          "is_correct": true
+        },
+        {
+          "answer_text": "Introduced slave taxation",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Increased the buying and selling of slaves",
+          "is_correct": false
+        }
+      ],
+      "quote": "In **1833 abolished slavery throughout the Empire**.",
+      "page_number": 16,
+      "paragraph": "Abolition of Slavery",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=1833%20abolished%20slavery%20throughout%20the%20Empire"
+    },
+    {
+      "question": "Who was originally the founder of the City of York, now known as Toronto?",
+      "possible_answers": [
+        {
+          "answer_text": "Mary Ann Shadd Cary",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Lieutenant Colonel John Graves Simcoe",
+          "is_correct": true
+        },
+        {
+          "answer_text": "Sir John A. Macdonald",
+          "is_correct": false
+        },
+        {
+          "answer_text": "William Lyon Mackenzie",
+          "is_correct": false
+        }
+      ],
+      "quote": "Lieutenant Colonel John Graves Simcoe was Upper Canada\u2019s first Lieutenant Governor and **founder of the City of York (now Toronto)**.",
+      "page_number": 16,
+      "paragraph": "Abolition of Slavery (photo)",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=founder%20of%20the%20City%20of%20York%20(now%20Toronto)"
+    },
+    {
+      "question": "When did Mary Ann Shadd Cary become the first woman publisher in Canada?",
+      "possible_answers": [
+        {
+          "answer_text": "1843",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1853",
+          "is_correct": true
+        },
+        {
+          "answer_text": "1863",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1873",
+          "is_correct": false
+        }
+      ],
+      "quote": "**In 1853 she became the first woman publisher in Canada**, helping to found and edit The Provincial Freeman.",
+      "page_number": 16,
+      "paragraph": "Abolition of Slavery (photo)",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=In%201853%20she%20became%20the%20first%20woman%20publisher%20in%20Canada"
+    },
+    {
+      "question": "Which province was the first in the British Empire to abolish slavery?",
+      "possible_answers": [
+        {
+          "answer_text": "Nova Scotia",
+          "is_correct": false
+        },
+        {
+          "answer_text": "New Brunswick",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Upper Canada",
+          "is_correct": true
+        },
+        {
+          "answer_text": "Lower Canada",
+          "is_correct": false
+        }
+      ],
+      "quote": "Simcoe also made **Upper Canada the first province in the British Empire to abolish slavery**.",
+      "page_number": 16,
+      "paragraph": "Abolition of Slavery (photo)",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=Upper%20Canada%20the%20first%20province%20in%20the%20British%20Empire%20to%20abolish%20slavery"
+    },
+    {
+      "question": "Which company came to dominate the fur trade in the northwest from Fort Garry to Fort Victoria?",
+      "possible_answers": [
+        {
+          "answer_text": "North West Company",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Montreal Fur Company",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Hudson\u2019s Bay Company",
+          "is_correct": true
+        },
+        {
+          "answer_text": "St. Lawrence Company",
+          "is_correct": false
+        }
+      ],
+      "quote": "The Hudson\u2019s Bay Company, with French, British and Aboriginal employees, **came to dominate the trade in the northwest from Fort Garry (Winnipeg) and Fort Edmonton to Fort Langley (near Vancouver) and Fort Victoria**\u2014trading posts that later became cities.",
+      "page_number": 16,
+      "paragraph": "A Growing Economy",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=came%20to%20dominate%20the%20trade%20in%20the%20northwest%20from%20Fort%20Garry%20(Winnipeg)%20and%20Fort%20Edmonton%20to%20Fort%20Langley%20(near%20Vancouver)%20and%20Fort%20Victoria"
+    },
+    {
+      "question": "When did the Montreal Stock Exchange open?",
+      "possible_answers": [
+        {
+          "answer_text": "1792",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1825",
+          "is_correct": false
+        },
+        {
+          "answer_text": "1832",
+          "is_correct": true
+        },
+        {
+          "answer_text": "1857",
+          "is_correct": false
+        }
+      ],
+      "quote": "The first financial institutions opened in the late 18th and early 19th centuries. **The Montreal Stock Exchange opened in 1832.**",
+      "page_number": 16,
+      "paragraph": "A Growing Economy",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=The%20Montreal%20Stock%20Exchange%20opened%20in%201832"
+    },
+    {
+      "question": "What was the outcome of the American attempt to conquer Canada by 1814?",
+      "possible_answers": [
+        {
+          "answer_text": "It was successful",
+          "is_correct": false
+        },
+        {
+          "answer_text": "It partially succeeded",
+          "is_correct": false
+        },
+        {
+          "answer_text": "It failed",
+          "is_correct": true
+        },
+        {
+          "answer_text": "It was unresolved",
+          "is_correct": false
+        }
+      ],
+      "quote": "By 1814, **the American attempt to conquer Canada had failed**.",
+      "page_number": 17,
+      "paragraph": "The War of 1812: The Fight for Canada",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=the%20American%20attempt%20to%20conquer%20Canada%20had%20failed"
+    },
+    {
+      "question": "Who was killed while defending against an American attack at Queenston Heights?",
+      "possible_answers": [
+        {
+          "answer_text": "Captain James T. Kirk",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Chief Tecumseh",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Major-General Sir Isaac Brock",
+          "is_correct": true
+        },
+        {
+          "answer_text": "Lieutenant-Colonel Charles de Salaberry",
+          "is_correct": false
+        }
+      ],
+      "quote": "Major-General Sir Isaac Brock captured Detroit but was **killed while defending against an American attack at Queenston Heights**...",
+      "page_number": 17,
+      "paragraph": "The War of 1812: The Fight for Canada",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=but%20was%20killed%20while%20defending%20against%20an%20American%20attack%20at%20Queenston%20Heights"
+    },
+    {
+      "question": "What action did the Americans take in York (now Toronto) in 1813?",
+      "possible_answers": [
+        {
+          "answer_text": "Captured British soldiers",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Burned Government House and the Parliament Buildings",
+          "is_correct": true
+        },
+        {
+          "answer_text": "Signed a peace treaty",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Built a fort",
+          "is_correct": false
+        }
+      ],
+      "quote": "**The Americans burned Government House and the Parliament Buildings in York** (now Toronto).",
+      "page_number": 17,
+      "paragraph": "The War of 1812: The Fight for Canada",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=In%201813%20the%20Americans%20burned%20Government%20House%20and%20the%20Parliament%20Buildings%20in%20York"
+    },
+    {
+      "question": "Who led an expedition from Nova Scotia to burn down the White House?",
+      "possible_answers": [
+        {
+          "answer_text": "Chief Tecumseh",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Major-General Sir Isaac Brock",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Lieutenant-Colonel Charles de Salaberry",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Major-General Robert Ross",
+          "is_correct": true
+        }
+      ],
+      "quote": "In retaliation in 1814, **Major-General Robert Ross led an expedition from Nova Scotia that burned down the White House** and other public buildings in Washington, D.C.",
+      "page_number": 17,
+      "paragraph": "The War of 1812: The Fight for Canada",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=Major%2DGeneral%20Robert%20Ross%20led%20an%20expedition%20from%20Nova%20Scotia%20that%20burned%20down%20the%20White%20House"
+    },
+    {
+      "question": "What is partly an outcome of the War of 1812?",
+      "possible_answers": [
+        {
+          "answer_text": "The division of Quebec into Upper and Lower Canada",
+          "is_correct": false
+        },
+        {
+          "answer_text": "The present-day Canada-U.S.A. border",
+          "is_correct": true
+        },
+        {
+          "answer_text": "The creation of the fur-trade economy",
+          "is_correct": false
+        },
+        {
+          "answer_text": "The adoption of the maple leaf as a national symbol",
+          "is_correct": false
+        }
+      ],
+      "quote": "The present-day **Canada-U.S.A. border is partly an outcome of the War of 1812**...",
+      "page_number": 17,
+      "paragraph": "The War of 1812: The Fight for Canada",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=The%20present%2Dday%20Canada%2DU.S.A.%20border%20is%20partly%20an%20outcome%20of%20the%20War%20of%201812"
+    },
+    {
+      "question": "Who sent some of his best soldiers to defend Canada in 1814?",
+      "possible_answers": [
+        {
+          "answer_text": "The Duke of Wellington",
+          "is_correct": true
+        },
+        {
+          "answer_text": "Napoleon Bonaparte",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Thomas Jefferson",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Sir George Prevost",
+          "is_correct": false
+        }
+      ],
+      "quote": "The **Duke of Wellington sent some of his best soldiers to defend Canada in 1814**.",
+      "page_number": 17,
+      "paragraph": "The War of 1812: The Fight for Canada",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=The%20Duke%20of%20Wellington%20sent%20some%20of%20his%20best%20soldiers%20to%20defend%20Canada%20in%201814"
+    },
+    {
+      "question": "Who made a 19 mile journey to warn of a planned American attack?",
+      "possible_answers": [
+        {
+          "answer_text": "Laura Secord",
+          "is_correct": true
+        },
+        {
+          "answer_text": "Isaac Brock",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Tecumseh",
+          "is_correct": false
+        },
+        {
+          "answer_text": "Wellington",
+          "is_correct": false
+        }
+      ],
+      "quote": "In 1813, **Laura Secord, pioneer wife and mother of five children, made a dangerous 19 mile (30 km) journey on foot to warn Lieutenant James FitzGibbon of a planned American attack**.",
+      "page_number": 17,
+      "paragraph": "The War of 1812: The Fight for Canada",
+      "online_page": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-history.html#:~:text=In%201813%2C%20Laura%20Secord%2C%20pioneer%20wife%20and%20mother%20of%20five%20children%2C%20made%20a%20dangerous%2019%20mile%20(30%20km)%20journey%20on%20foot%20to%20warn%20Lieutenant%20James%20FitzGibbon%20of%20a%20planned%20American%20attack"
     }
   ]
 }
